@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  // this tutorila is made from angular2 tutorials by veswash
   title = 'ang-ves';
+  public name;
+  public color = 'green';
+
+  onclick(value){
+    console.log(value);
+  }
+
+  onover(event){
+    console.log(event);
+  }
 }

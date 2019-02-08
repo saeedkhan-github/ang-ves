@@ -1,0 +1,19 @@
+h1{color: red}
+.red {
+    color:red;
+  }
+  .green{
+      color:green;
+  }
+
+  .blue{
+      color:blue;
+  }
+
+.textcolor{
+    color:olivedrab;
+
+}
+.backcolor{
+    background-color: blueviolet
+}
