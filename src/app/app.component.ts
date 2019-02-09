@@ -10,12 +10,21 @@ export class AppComponent {
   title = 'ang-ves';
   public name;
   public color = 'green';
+  public cone = true;
+  public ctwo = true;
 
-  onclick(value){
+  onclick(value) {
     console.log(value);
   }
 
-  onover(event){
+  onover(event) {
     console.log(event);
   }
+
+  toggle() {
+
+    this.cone = !this.cone;
+    this.ctwo = !this.ctwo;
+  }
+
 }
