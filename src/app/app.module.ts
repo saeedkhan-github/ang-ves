@@ -4,12 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
+import { TdFormsComponent } from './td-forms/td-forms.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TdFormsComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -18,6 +21,6 @@ import { CommonModule } from '@angular/common';
     CommonModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, TdFormsComponent]
 })
 export class AppModule { }
