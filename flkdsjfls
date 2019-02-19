@@ -1,0 +1,35 @@
+[33mcommit bcc24bc3c94724eb5a9dd1f17d5544ced9410bad[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Sat Feb 16 00:11:16 2019 +0500
+
+    RESET HEAD
+
+[33mcommit 7b1a35eaac0a906df767868db32ddf3153cba009[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Sun Feb 10 12:24:49 2019 +0500
+
+    uform component removed
+
+[33mcommit a63cff1db92eebe0b3931a720dadba161038b57c[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Sat Feb 9 23:10:00 2019 +0500
+
+     new |
+
+[33mcommit 3cdd3a96415d190070a78e89a2f3f22f508c6851[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Sat Feb 9 11:26:27 2019 +0500
+
+    attribute directive ng class
+
+[33mcommit c40d7bead91e5a6862f2e57c8f4d39ae3fb036b9[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Fri Feb 8 21:44:38 2019 +0500
+
+    ngclass ngif as added
+
+[33mcommit 2d07d74dcb8825f63566aa31f3cc6264def6c287[m
+Author: saeedkhan-github <saeedullah321@gmail.com>
+Date:   Tue Feb 5 14:13:19 2019 +0500
+
+    initial commit
