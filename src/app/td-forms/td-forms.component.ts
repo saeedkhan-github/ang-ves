@@ -9,6 +9,10 @@ export class TdFormsComponent implements OnInit {
 
   constructor() { }
 
+  onSubmit(value: any) {
+    console.log(value);
+  }
+
   ngOnInit() {
   }
 
