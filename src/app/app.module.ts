@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
-import { TdFormsComponent } from './td-forms/td-forms.component';
+import { ModelFormComponent } from './model-form/model-form.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TdFormsComponent,
+    ModelFormComponent,
 
   ],
   imports: [
@@ -21,6 +21,6 @@ import { TdFormsComponent } from './td-forms/td-forms.component';
     CommonModule
   ],
   providers: [],
-  bootstrap: [AppComponent, TdFormsComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

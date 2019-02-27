@@ -7,24 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // this tutorila is made from angular2 tutorials by veswash
-  title = 'ang-ves';
-  public name;
-  public color = 'green';
-  public cone = true;
-  public ctwo = true;
-
-  onclick(value) {
-    console.log(value);
-  }
-
-  onover(event) {
-    console.log(event);
-  }
-
-  toggle() {
-
-    this.cone = !this.cone;
-    this.ctwo = !this.ctwo;
-  }
 
 }
