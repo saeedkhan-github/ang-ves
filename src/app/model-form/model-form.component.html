@@ -4,7 +4,10 @@
 
       <div class="form-group"> (ngSubmit)="onSubmit()" 
         <label>Name</label>
-        <input type="text" name="name" class="form-control" formControlName="name">
+        <input type="text" #refName name="name" class="form-control" formControlName="name">
+            <div *ngIf="userForm.controls['name'].hasError('required')"  class="alert alert-danger">
+                Please Enter Name
+            </div>
       </div>  
 
       <div class="form-group">

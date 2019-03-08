@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-model-form',
@@ -9,7 +9,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 export class ModelFormComponent {
 
   userForm =  new FormGroup({
-    name : new FormControl(),
+    name : new FormControl('saeed khan', Validators.required),
     email : new FormControl(),
 
     address: new FormGroup({
@@ -19,9 +19,8 @@ export class ModelFormComponent {
     }),
   });
 
-  onsubmit() {
+  onSubmit() {
     console.log(this.userForm.value);
-  // tslint:disable-next-line:semicolon
   }
 
 }
