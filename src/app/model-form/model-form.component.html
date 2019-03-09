@@ -28,15 +28,16 @@
               </div> 
     
               <div class="form-group">
-                  <label>Postal Code</label>
-                  <input type="text" class="form-control" formControlName="postalcode">
+                  <label for="postalcode">Postal Code</label>
+                  <input type="text" class="form-control" name="postalcode" formControlName="postalcode">
+                  <div *ngIf="userForm.hasError('required',['postalcode'])" >Plz enter postalcode </div>
                 </div>   
 
       </div>
      
      
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit"  [disabled]="!userForm.valid" class="btn btn-primary">Submit</button>
       
   </form>
 </div>
