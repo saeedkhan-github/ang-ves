@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { ModelFormComponent } from './model-form/model-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EmpdataComponent } from './empdata/empdata.component';
+import { EmdataService } from './emdata.service';
 
 
 
@@ -13,6 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     ModelFormComponent,
+    EmpdataComponent,
 
   ],
   imports: [
@@ -22,7 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     CommonModule
   ],
-  providers: [],
+  providers: [EmdataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
